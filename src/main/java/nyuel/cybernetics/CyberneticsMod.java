@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import nyuel.cybernetics.world.block.CyberneticsBlocks;
 import nyuel.cybernetics.world.item.CyberneticsItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,6 +34,7 @@ public class CyberneticsMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CyberneticsItems.register(eventBus);
+        CyberneticsBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

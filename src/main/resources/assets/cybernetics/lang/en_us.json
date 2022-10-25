@@ -1,4 +1,6 @@
 {
   "item.cybernetics.cola": "Cola",
-  "item.cybernetics.pepsi": "Pepsi"
+  "item.cybernetics.pepsi": "Pepsi",
+  "block.cybernetics.hardened_stone": "Hardened stone",
+  "itemGroup.cyberneticsTab": "Cybernetics"
 }

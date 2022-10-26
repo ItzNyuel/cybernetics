@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cybernetics:item/cola"
+    "layer0": "cybernetics:item/steel_ingot"
   }
 }

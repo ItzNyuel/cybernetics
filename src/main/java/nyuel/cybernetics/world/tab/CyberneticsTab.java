@@ -9,7 +9,7 @@ public class CyberneticsTab {
     {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(CyberneticsItems.COLA.get());
+            return new ItemStack(CyberneticsItems.STEEL_INGOT.get());
         }
     };
 }

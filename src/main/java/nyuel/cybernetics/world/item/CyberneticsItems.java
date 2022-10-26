@@ -13,9 +13,7 @@ public class CyberneticsItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CyberneticsMod.MOD_ID);
 
-    public static final RegistryObject<Item> COLA = ITEMS.register("cola",
-            () -> new Item(new Item.Properties().tab(CyberneticsTab.TAB_CYBERNETICS)));
-    public static final RegistryObject<Item> PEPSI = ITEMS.register("pepsi",
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties().tab(CyberneticsTab.TAB_CYBERNETICS)));
 
     public static void register(IEventBus eventBus) {

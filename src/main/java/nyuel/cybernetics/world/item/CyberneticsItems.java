@@ -15,6 +15,8 @@ public class CyberneticsItems {
 
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties().tab(CyberneticsTab.TAB_CYBERNETICS)));
+    public static final RegistryObject<Item> BLUESTEEL_INGOT = ITEMS.register("bluesteel_ingot",
+            () -> new Item(new Item.Properties().tab(CyberneticsTab.TAB_CYBERNETICS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

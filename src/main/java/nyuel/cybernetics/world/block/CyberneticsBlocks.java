@@ -24,7 +24,10 @@ public class CyberneticsBlocks {
 
     public static final RegistryObject<Block> HARDENED_STONE = registerBlock("hardened_stone",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.STONE).harvestLevel(1)
-                    .harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)));
+                    .harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(2.0F, 6.5F)));
+    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.HEAVY_METAL, MaterialColor.METAL).harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(2.5F, 7.0F)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);

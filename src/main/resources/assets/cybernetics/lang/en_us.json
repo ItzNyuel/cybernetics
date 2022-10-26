@@ -1,5 +1,6 @@
 {
   "item.cybernetics.steel_ingot": "Steel ingot",
+  "item.cybernetics.bluesteel_ingot": "Bluesteel ingot",
   "block.cybernetics.hardened_stone": "Hardened stone",
   "itemGroup.cyberneticsTab": "Cybernetics"
 }
